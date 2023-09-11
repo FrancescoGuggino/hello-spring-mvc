@@ -12,4 +12,14 @@ public class MainController {
     public String index(){
         return "homepage";
     }
+
+    @GetMapping("/about")
+    public String aboutUs() {
+        return "about";
+    }
+
+    @GetMapping("/terms")
+    public String termsAndCondition(){
+        return "terms";
+    }
 }
